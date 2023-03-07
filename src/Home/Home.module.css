@@ -1,0 +1,65 @@
+.writtingPad {
+    border: 1px rgb(149, 149, 149) solid;
+    box-shadow: 0px 0px 7px -1px;
+    background-color: white;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50rem;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 6rem;
+  }
+  .para {
+    height:35rem;
+    width: 45rem;
+    /* border: none; */
+    outline: none;
+    /* border: 1px red solid; */
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .writtingPad button{
+       height: 3rem;
+       width: 3rem;
+       border-radius: 100%;
+       border: none;
+       position: fixed;
+       margin-left: 75rem;
+       margin-top: 15rem;
+       box-shadow: 1px 1px 8px 2px;
+  }
+  .DownloadIcon{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    border: none;
+  }
+  .WrittingBox{
+    /* border: 2px rgb(228, 21, 21) solid; */
+    box-shadow: 0px 0px 7px -1px;
+    background-color: white;
+    height:81.9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  @media (max-width:750px){
+     html{
+      font-size: 15px;
+     }
+  }
+  img{
+    height: 200px;
+    width: 200px;
+  }

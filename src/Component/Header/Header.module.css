@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 233, 233);
+    border: 1px rgb(204, 200, 200) solid;
+    width: 100vw;
+    position: sticky;
+    padding: 0rem 8rem 0rem 8rem;
+    align-items: center;
+  }
+ .btn{
+    background-color: transparent;
+    border: none;
+ }
+@media (max-width:750px){
+    input{
+      width: 2rem;
+    }
+}
+
+.scaleBar{
+  margin-top: -.6rem;
+  position: absolute;
+}
